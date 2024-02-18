@@ -1,0 +1,62 @@
+## ██████╗░░█████╗░███╗░░██╗██████╗░░█████╗░  ██╗░░██╗░█████╗░██╗░░░██╗░██████╗███████╗##
+## ██╔══██╗██╔══██╗████╗░██║██╔══██╗██╔══██╗  ██║░░██║██╔══██╗██║░░░██║██╔════╝██╔════╝##
+## ██████╔╝███████║██╔██╗██║██║░░██║███████║  ███████║██║░░██║██║░░░██║╚█████╗░█████╗░░##
+## ██╔═══╝░██╔══██║██║╚████║██║░░██║██╔══██║  ██╔══██║██║░░██║██║░░░██║░╚═══██╗██╔══╝░░##
+## ██║░░░░░██║░░██║██║░╚███║██████╔╝██║░░██║  ██║░░██║╚█████╔╝╚██████╔╝██████╔╝███████╗##
+## ╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝  ╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═════╝░╚══════╝##
+## ------------------------------------------------------------------------------------##
+##                                     Author: MrErrors                                ##
+##                                     Version: 1.0.1                                  ##
+## ------------------------------------------------------------------------------------##
+Prefix: "<##1DF4E9> &l● PandaHouse &8&l| "
+
+Version: 1.0.1
+
+Auction-Info:
+    min-pricing: 50
+    max-pricing: 100000000000
+
+
+
+# This is where you will be able to change all the interactable items within the auction house menu
+Auction-Menu:
+    # This will be the title that will be displayed for the auction house menu title please make
+    # sure to keep the %Current_Page% with-in the title if wish to display the current page the user is on.
+    Title: "&8Auction House | Page &b%Current_Page%"
+    Rows: 6
+    Interact:
+        Previous:
+            material: healing_tipped_arrow
+            displayname: "&8(&b%Previous_Page%&8) &7↢ Previous page"
+            slot: 48
+            nbt: ''
+            lore:
+            - <#6A6A6A>Information
+            - "  <#6A6A6A>| &fClick here for the previous page"
+        Next:
+            material: arrow
+            displayname: "&7Next page ↣ &8(&b%Next_Page%&8)"
+            slot: 50
+            nbt: ''
+            lore:
+            - <#6A6A6A>Information
+            - "  <#6A6A6A>| &fClick here for the next page"
+        Player:
+            material: Skull
+            displayname: "&b%player%"
+            slot: 4
+            nbt:
+            lore:
+            - <#6A6A6A>Information
+            - '  <#27D2F0>| <#EBEBEB>Balance: <#27D2F0>%players balance%'
+            - '  <#27D2F0>| <#EBEBEB>Active Listings: <#27D2F0>%Active_Listings%'
+        Information:
+            material: BOOK
+            displayname: "&bInformation"
+            slot: 46
+            nbt: ''
+            lore:
+            - "  <#6A6A6A>| &f"
+            - "  <#6A6A6A>| &f"
+            - "  <#6A6A6A>| &b"
+            - "  <#6A6A6A>| &f"
